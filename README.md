@@ -56,7 +56,7 @@ Dependencies: PyJWT, PyYAML, click, aiohttp, requests, rich, pydantic
 
 # Usage
 
-Run the scanner via the installed console command: api-sec-scanner or api-sec-scanner <https://target-api.com>
+Run the scanner via the installed console command: api-sec-scanner or api-sec-scanner <https://target-api.com> 
 
 Options
 
