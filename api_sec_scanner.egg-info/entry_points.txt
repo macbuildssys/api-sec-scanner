@@ -1,0 +1,2 @@
+[console_scripts]
+api-sec-scanner = cli.main:main
