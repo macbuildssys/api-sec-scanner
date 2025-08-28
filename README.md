@@ -19,7 +19,7 @@
 
 ## Overview
 
-API Security Scanner is an advanced vulnerability assessment tool designed to identify and report security flaws in RESTful and HTTPS APIs. It supports OpenAPI analysis, JWT token auditing, CVSS 4.0 risk scoring, and full OWASP API Top 10 (2023) coverage.
+API Security Scanner is an advanced vulnerability assessment tool designed to identify and report security flaws in HTTPS/RESTful APIs. It supports OpenAPI analysis, JWT token auditing, CVSS 4.0 risk scoring, and full OWASP API Top 10 (2023) coverage.
 
 ## Features
 
