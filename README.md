@@ -71,15 +71,14 @@ Dependencies: PyJWT, PyYAML, click, aiohttp, requests, rich, pydantic
 
 # Option	Description
 
---output, -o	Output file for report
+--output, -o	 Output file for report
 
---format, -f	Report format: json
+--format, -f	 Report format: json
 
---verbose, -v	Enable verbose output
+--verbose, -v	 Enable verbose output
 
 ## Example:
 
-C
 api-sec-scanner https://api.example.com -f json -o report.json
 
 # Example Output
