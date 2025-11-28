@@ -51,25 +51,25 @@ API Security Scanner is an advanced vulnerability assessment tool designed to id
 ## Installation
 
 
-git clone https://github.com/macbuildssys/api-sec-scanner.git
+- git clone https://github.com/macbuildssys/api-sec-scanner.git
 
-cd api-sec-scanner
+- cd api-sec-scanner
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
-pip install .
+- pip install .
 
 Dependencies: PyJWT, PyYAML, click, aiohttp, requests, rich, pydantic
 
 # Usage
 
-Run the scanner via the installed console command: 
+- Run the scanner via the installed console command: 
 
-api-sec-scanner or api-sec-scanner <https://target-api.com>
+- api-sec-scanner or api-sec-scanner <https://target-api.com>
 
-# Options
+## Options
 
-Option	Description
+# Option	Description
 
 --output, -o	Output file for report
 
@@ -77,12 +77,12 @@ Option	Description
 
 --verbose, -v	Enable verbose output
 
-Example:
+## Example:
 
 C
 api-sec-scanner https://api.example.com -f json -o report.json
 
-Example Output
+# Example Output
 
 OPERATION	  RISK LEVEL	CVSS 4.0 SCORE	OWASP	VULNERABILITY
 
@@ -90,23 +90,23 @@ GET /users	HIGH	      8.7           	API1:2023	Broken Object Level Authorization
 
 # Roadmap
 
-Add multi-threaded scanning
+- Add multi-threaded scanning
 
-Add GraphQL schema introspection
+- Add GraphQL schema introspection
 
-Generate HTML reports
+- Generate HTML reports
 
-Integrate CI/CD pipeline security mode
+- Integrate CI/CD pipeline security mode
 
 # Contributing
 
-Contributions are welcome! Please:
+- Contributions are welcome! Please:
 
-Fork the repository
+- Fork the repository
 
-Create a feature branch
+- Create a feature branch
 
-Submit a pull request
+- Submit a pull request
 
 # License
 
