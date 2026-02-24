@@ -24,70 +24,85 @@ API Security Scanner is an advanced vulnerability assessment tool designed to id
 ## Features
 
 ### API Discovery & Reconnaissance
-- Finds OpenAPI/Swagger, GraphQL, and `.well-known` endpoints  
-- Detects exposed configs (`.env`, `config.json`, etc.)
+
+Finds OpenAPI/Swagger, GraphQL, and `.well-known` endpoints.
+
+Detects exposed configs (`.env`, `config.json`, etc.).
 
 ### Comprehensive Vulnerability Scanning
-- Covers SQLi, XSS, SSRF, command injection, missing authentication, weak rate limiting, and more  
-- Analyzes JWT tokens for weak/none algorithms, missing expiration, and sensitive data exposure
+
+Covers SQLi, XSS, SSRF, command injection, missing authentication, weak rate limiting, and more.
+
+Analyzes JWT tokens for weak/none algorithms, missing expiration, and sensitive data exposure.
 
 ### CVSS 4.0 Scoring
-- Calculates base, temporal, and environmental scores
+
+Calculates base, temporal, and environmental scores.
 
 ### Technology Fingerprinting
-- Detects frameworks, languages, and servers from headers and responses
+
+Detects frameworks, languages, and servers from headers and responses.
 
 ### Flexible Reporting
-- Console-friendly output with rich tables & colors  
-- Supports JSON and Markdown export
+
+Console-friendly output with rich tables & colors.
+
+Supports JSON and Markdown export.
 
 ## Installation
 
-
+```
 git clone https://github.com/macbuildssys/api-sec-scanner.git
+
 cd api-sec-scanner
+
 pip install -r requirements.txt
+
 pip install .
-Dependencies: PyJWT, PyYAML, click, aiohttp, requests, rich, pydantic
+```
 
-Usage
+**Dependencies:** `PyJWT`, `PyYAML`, `click`, `aiohttp`, `requests`, `rich`, `pydantic`
+
+## Usage
+
 Run the scanner via the installed console command:
+```
+api-sec-scanner
 
-Copy code
+# or
+
 api-sec-scanner https://target-api.com
-Options
-Option	Description
---output, -o	Output file for report
---format, -f	Report format: json
---verbose, -v	Enable verbose output
+```
 
-Example:
+## Options
 
-Copy code
+| Option | Description |
+|---|---|
+| `--output`, `-o` | Output file for report |
+| `--format`, `-f` | Report format: `json` |
+| `--verbose`, `-v` | Enable verbose output |
+
+**Example:**
+```
 api-sec-scanner https://api.example.com -f json -o report.json
-Example Output
-OPERATION	RISK LEVEL	CVSS 4.0 SCORE	OWASP	VULNERABILITY
-GET /users	HIGH	8.7	API1:2023	Broken Object Level Authorization
+```
 
-# Roadmap
-Add multi-threaded scanning
+## Example Output
 
-Add GraphQL schema introspection
+| OPERATION | RISK LEVEL | CVSS 4.0 SCORE | OWASP | VULNERABILITY |
+|---|---|---|---|---|
+| `GET /users` | HIGH | 8.7 | API1:2023 | Broken Object Level Authorization |
 
-Generate HTML reports
 
-Integrate CI/CD pipeline security mode
 
-# Contributing
+## Contributing
 
 Contributions are welcome! Please:
 
-Fork the repository
+1. Fork the repository
+2. Create a feature branch
+3. Submit a pull request
 
-Create a feature branch
+## License
 
-Submit a pull request
-
-# License
-
-Distributed under the MIT License. See LICENSE for details.
+Distributed under the MIT License. See [LICENSE](LICENSE) for details.
