@@ -4,18 +4,6 @@
   <img src="assets/scanner-image.png" alt="API Security Scanner Screenshot" width="600">
 </p>
 
-<p align="center">
-  <a href="https://github.com/macbuildssys/api-sec-scanner">
-    <img src="https://img.shields.io/github/v/release/macbuildssys/api-sec-scanner.svg" alt="Release">
-  </a>
-  <a href="https://github.com/macbuildssys/api-sec-scanner/issues">
-    <img src="https://img.shields.io/github/issues/macbuildssys/api-sec-scanner.svg" alt="Issues">
-  </a>
-  <a href="https://github.com/macbuildssys/api-sec-scanner/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
-  </a>
-  <img src="https://img.shields.io/badge/version-1.0-brightgreen.svg" alt="Version">
-</p>
 
 ## Overview
 
@@ -25,29 +13,29 @@ API Security Scanner is an advanced vulnerability assessment tool designed to id
 
 ### API Discovery & Reconnaissance
 
-Finds OpenAPI/Swagger, GraphQL, and `.well-known` endpoints.
+- Finds OpenAPI/Swagger, GraphQL, and `.well-known` endpoints.
 
-Detects exposed configs (`.env`, `config.json`, etc.).
+- Detects exposed configs (`.env`, `config.json`, etc.).
 
 ### Comprehensive Vulnerability Scanning
 
-Covers SQLi, XSS, SSRF, command injection, missing authentication, weak rate limiting, and more.
+- Covers SQLi, XSS, SSRF, command injection, missing authentication, weak rate limiting, and more.
 
-Analyzes JWT tokens for weak/none algorithms, missing expiration, and sensitive data exposure.
+- Analyzes JWT tokens for weak/none algorithms, missing expiration, and sensitive data exposure.
 
 ### CVSS 4.0 Scoring
 
-Calculates base, temporal, and environmental scores.
+- Calculates base, temporal, and environmental scores.
 
 ### Technology Fingerprinting
 
-Detects frameworks, languages, and servers from headers and responses.
+- Detects frameworks, languages, and servers from headers and responses.
 
 ### Flexible Reporting
 
-Console-friendly output with rich tables & colors.
+- Console-friendly output with rich tables & colors.
 
-Supports JSON and Markdown export.
+- Supports JSON and Markdown export.
 
 ## Installation
 
