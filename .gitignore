@@ -1,0 +1,17 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Build artifacts
+*.egg-info/
+
+# Virtual environment
+venv/
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+*.log
