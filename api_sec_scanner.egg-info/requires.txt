@@ -1,7 +1,0 @@
-click
-aiohttp
-rich
-pydantic
-PyJWT
-pyyaml
-requests
