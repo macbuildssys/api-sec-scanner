@@ -1,0 +1,10 @@
+# Asset profile: describes what the scanned API is worth. Every field is optional.
+# A profile can only LOWER CVSS 4.0 scores (unset requirements count as High),
+# so a scan without a profile is the conservative worst case.
+name: payments-api
+exposure: internet          # internet or internal
+data_classes:               # public, internal, pii, financial, health, credentials, secret
+  - pii
+  - financial
+availability: normal        # low, normal or critical
+mission_impact: high        # low, medium or high (feeds the Act/Attend/Track decision)

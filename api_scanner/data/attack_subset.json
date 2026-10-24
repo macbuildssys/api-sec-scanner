@@ -1,0 +1,174 @@
+{
+  "attack_version": "20.0",
+  "released": "2026-10-13",
+  "techniques": {
+    "T1040": {
+      "name": "Network Sniffing",
+      "tactics": [
+        "credential-access",
+        "discovery"
+      ]
+    },
+    "T1059": {
+      "name": "Command and Scripting Interpreter",
+      "tactics": [
+        "execution"
+      ]
+    },
+    "T1078": {
+      "name": "Valid Accounts",
+      "tactics": [
+        "stealth",
+        "persistence",
+        "privilege-escalation",
+        "initial-access"
+      ]
+    },
+    "T1083": {
+      "name": "File and Directory Discovery",
+      "tactics": [
+        "discovery"
+      ]
+    },
+    "T1110": {
+      "name": "Brute Force",
+      "tactics": [
+        "credential-access"
+      ]
+    },
+    "T1110.001": {
+      "name": "Password Guessing",
+      "tactics": [
+        "credential-access"
+      ]
+    },
+    "T1110.004": {
+      "name": "Credential Stuffing",
+      "tactics": [
+        "credential-access"
+      ]
+    },
+    "T1119": {
+      "name": "Automated Collection",
+      "tactics": [
+        "collection"
+      ]
+    },
+    "T1133": {
+      "name": "External Remote Services",
+      "tactics": [
+        "persistence",
+        "initial-access"
+      ]
+    },
+    "T1190": {
+      "name": "Exploit Public-Facing Application",
+      "tactics": [
+        "initial-access"
+      ]
+    },
+    "T1213": {
+      "name": "Data from Information Repositories",
+      "tactics": [
+        "collection"
+      ]
+    },
+    "T1499.003": {
+      "name": "Application Exhaustion Flood",
+      "tactics": [
+        "impact"
+      ]
+    },
+    "T1499.004": {
+      "name": "Application or System Exploitation",
+      "tactics": [
+        "impact"
+      ]
+    },
+    "T1528": {
+      "name": "Steal Application Access Token",
+      "tactics": [
+        "credential-access"
+      ]
+    },
+    "T1539": {
+      "name": "Steal Web Session Cookie",
+      "tactics": [
+        "credential-access"
+      ]
+    },
+    "T1550.001": {
+      "name": "Application Access Token",
+      "tactics": [
+        "lateral-movement"
+      ]
+    },
+    "T1552": {
+      "name": "Unsecured Credentials",
+      "tactics": [
+        "credential-access"
+      ]
+    },
+    "T1552.001": {
+      "name": "Credentials In Files",
+      "tactics": [
+        "credential-access"
+      ]
+    },
+    "T1552.005": {
+      "name": "Cloud Instance Metadata API",
+      "tactics": [
+        "credential-access"
+      ]
+    },
+    "T1557": {
+      "name": "Adversary-in-the-Middle",
+      "tactics": [
+        "credential-access",
+        "collection"
+      ]
+    },
+    "T1566.002": {
+      "name": "Spearphishing Link",
+      "tactics": [
+        "initial-access"
+      ]
+    },
+    "T1584.001": {
+      "name": "Domains",
+      "tactics": [
+        "resource-development"
+      ]
+    },
+    "T1590.005": {
+      "name": "IP Addresses",
+      "tactics": [
+        "reconnaissance"
+      ]
+    },
+    "T1592.002": {
+      "name": "Software",
+      "tactics": [
+        "reconnaissance"
+      ]
+    },
+    "T1595.002": {
+      "name": "Vulnerability Scanning",
+      "tactics": [
+        "reconnaissance"
+      ]
+    },
+    "T1606": {
+      "name": "Forge Web Credentials",
+      "tactics": [
+        "credential-access"
+      ]
+    },
+    "T1684.002": {
+      "name": "Email Spoofing",
+      "tactics": [
+        "stealth"
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+# Build output
+build/
+dist/
+*.egg-info/
+.cache/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+venv/
+.venv/
+
+# Scan reports and local secrets
+report-*
+*.sarif
+.env
+
+# Editors and system files
+.vscode/
+.idea/
+.DS_Store
+*.log
