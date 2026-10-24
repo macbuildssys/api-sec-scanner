@@ -1,5 +1,9 @@
 # API Security Scanner
 
+<p align="center">
+  <img src="icons/api-sec-scanner.png" alt="api-sec-scanner logo" width="200">
+</p>
+
 Detect vulnerabilities in REST APIs and websites. The scanner sends real requests, compares the answers, and only reports a weakness when it saw the evidence. Every weakness gets a CVSS 4.0 score and is mapped to the OWASP API Security Top 10 (2023), the OWASP Top 10 (2025), CWE and MITRE ATT&CK.
 
 ## How it works
@@ -14,7 +18,6 @@ Only scan systems you own or have written permission to test.
 
 ## Install
 
-Build the package (see Build the packages below), then use either one. Neither needs Python, pip or a virtual environment.
 
 The .deb, for Debian, Ubuntu and Mint. It adds the commands `api-sec-scanner` and `scan`:
 
@@ -56,11 +59,6 @@ Useful options: `--active`, `--allow-mutating`, `--token`, `--token-b` (a second
 ## Limits
 
 A clean report is not proof that a target is secure. The scanner only finds what shows up over HTTP, and it does not replace a penetration test.
-
-## Development
-
-    pip install -e ".[dev]"
-    pytest
 
 ## License
 
